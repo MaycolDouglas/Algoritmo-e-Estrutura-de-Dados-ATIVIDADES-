@@ -1,0 +1,81 @@
+# 1.Crie uma função para pedir um número inteiro ao usuário e retornar ele. Toda vez que você Precisar de um número informado pelo usuário, utilize ela.
+# Ela não tem parâmetro e o retorno é o valor digitado pelo usuário já com o tipo inteiro.
+"""
+def funcao(n1):
+    return n1
+
+a = int(input("Digite um numero inteiro"))
+print (funcao(a))
+
+"""
+
+#2 Faça uma função para gerar números aleatórios. Esta função deve receber um número inteiro num e retornar um número aleatório entre 1 e num.
+# Assim, toda vez que você precisar de um número qualquer pode usar a função do exercício 1 ou esta.
+"""
+
+import random
+
+
+def num_aleatorio(num):
+    n = random.randint(1,num)
+    return n
+
+
+a = int(input("Digite um numero inteiro"))
+print(num_aleatorio(a))
+print(num_aleatorio(a))
+
+"""
+
+#3.Faça uma função que receba um número inteiro por parâmetro e retorne o mês correspondente ao número.
+#Por exemplo, 2 corresponde a "Fevereiro". Se o número informado não corresponder a um mês (1 a 12), retorne a mensagem “Mês inválido”.
+"""
+
+def data(mes):
+    resultado = ""
+    if(mes == 1):
+        resultado = "Janeiro"
+    elif(mes == 2):
+        resultado = "Fevereiro"
+    elif(mes == 3):
+        resultado = "Março"
+    elif(mes == 4):
+        resultado = "Abril"
+    elif(mes == 5):
+        resultado = "Maio"
+    elif(mes == 6):
+        resultado = "Junho"
+    elif(mes == 7):
+        resultado = "Julho"
+    elif(mes == 8):
+        resultado = "Agosto"
+    elif(mes == 9):
+        resultado = "Setembro"
+    elif(mes == 10):
+        resultado = "Outubro"
+    elif(mes == 11):
+        resultado = "Novembro"
+    elif(mes == 12):
+        resultado = "Dezembro"
+    else:
+        print("Mês Inválido")
+    
+    return resultado
+
+"""
+
+"""
+
+Faça funções para resolver as equações de área:
+a) do quadrado = x²  
+b) do retângulo = b . h 	(base x altura)
+c) do triângulo = (b . h)2
+d) do trapézio  = (B + b) . h2
+
+"""
+
+    
+
+
+
+    
